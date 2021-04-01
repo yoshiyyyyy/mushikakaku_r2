@@ -1,1 +1,1 @@
-web: gunicorn myproject.wsgi
+web: gunicorn mushikakaku2.wsgi --log-file -
