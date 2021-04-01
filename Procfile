@@ -1,1 +1,1 @@
-web: gunicorn mushikakaku2.wsgi --log-file -
+web: gunicorn mushikakaku_r2.wsgi --log-file -
