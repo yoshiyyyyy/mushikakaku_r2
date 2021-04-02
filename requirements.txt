@@ -1,24 +1,54 @@
-asgiref @ file:///tmp/build/80754af9/asgiref_1605055780383/work
-beautifulsoup4 @ file:///home/linux1/recipes/ci/beautifulsoup4_1610988766420/work
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+asgiref=3.3.1=pyhd3eb1b0_0
+beautifulsoup4=4.9.3=pyha847dfd_0
+brotlipy=0.7.0=py38h9ed2024_1003
+ca-certificates=2021.1.19=hecd8cb5_1
+certifi=2020.12.5=py38hecd8cb5_0
+cffi=1.14.5=py38h2125817_0
+chardet=4.0.0=py38hecd8cb5_1003
+cryptography=3.4.7=py38h2fd3fbb_0
+dj-database-url=0.5.0=pypi_0
+django=3.1.7=pyhd3eb1b0_0
+django-heroku=0.3.1=pypi_0
+gunicorn=20.1.0=pypi_0
+icu=58.2=h0a44026_3
+idna=2.10=pyhd3eb1b0_0
+krb5=1.17.1=hddcf347_0
+libcxx=10.0.0=1
+libedit=3.1.20210216=h9ed2024_1
+libffi=3.3=hb1e8313_2
+libiconv=1.16=h1de35cc_0
+libpq=12.2=h051b688_0
+libxml2=2.9.10=h7cdb67c_3
+libxslt=1.1.34=h83b36ba_0
+lxml=4.6.3=py38h26b266a_0
+ncurses=6.2=h0a44026_1
+openssl=1.1.1k=h9ed2024_0
+pip=21.0.1=py38hecd8cb5_0
+psycopg2=2.8.6=py38hbcfaee0_1
+pycparser=2.20=py_2
+pyopenssl=20.0.1=pyhd3eb1b0_1
+pysocks=1.7.1=py38_1
+python=3.8.8=h88f2d9e_4
+pytz=2021.1=pyhd3eb1b0_0
+readline=8.1=h9ed2024_0
+requests=2.25.1=pyhd3eb1b0_0
+setuptools=52.0.0=py38hecd8cb5_0
+six=1.15.0=py38hecd8cb5_0
+soupsieve=2.2.1=pyhd3eb1b0_0
+sqlite=3.35.3=hce871da_0
+sqlparse=0.4.1=py_0
+tk=8.6.10=hb0a8c7a_0
+urllib3=1.26.4=pyhd3eb1b0_0
+wheel=0.36.2=pyhd3eb1b0_0
+whitenoise=5.2.0=pypi_0
+xz=5.2.5=h1de35cc_0
+zlib=1.2.11=h1de35cc_3
 brotlipy==0.7.0
 certifi==2020.12.5
-cffi @ file:///opt/concourse/worker/volumes/live/0ef369cc-6ba0-47e7-75da-208c6400381d/volume/cffi_1613246948181/work
-chardet @ file:///opt/concourse/worker/volumes/live/c798b2ee-88b1-4341-6830-161a92c2399e/volume/chardet_1607706832595/work
-cryptography @ file:///opt/concourse/worker/volumes/live/c515855a-effc-46df-74dc-542901b701da/volume/cryptography_1616769282442/work
 dj-database-url==0.5.0
-Django @ file:///tmp/build/80754af9/django_1613762073373/work
 django-heroku==0.3.1
 gunicorn==20.1.0
-idna @ file:///home/linux1/recipes/ci/idna_1610986105248/work
-lxml @ file:///opt/concourse/worker/volumes/live/42fc56a4-88b4-4605-6037-9605f4e5eeeb/volume/lxml_1616443240194/work
-psycopg2 @ file:///opt/concourse/worker/volumes/live/d12e789f-5b6c-4947-7cc2-187f3a9c9696/volume/psycopg2_1612298599991/work
-pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
-pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1608057966937/work
-PySocks @ file:///opt/concourse/worker/volumes/live/85a5b906-0e08-41d9-6f59-084cee4e9492/volume/pysocks_1594394636991/work
-pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
-requests @ file:///tmp/build/80754af9/requests_1608241421344/work
-six @ file:///opt/concourse/worker/volumes/live/5b31cb27-1e37-4ca5-6e9f-86246eb206d2/volume/six_1605205320872/work
-soupsieve @ file:///tmp/build/80754af9/soupsieve_1616183228191/work
-sqlparse @ file:///tmp/build/80754af9/sqlparse_1602184451250/work
-urllib3 @ file:///tmp/build/80754af9/urllib3_1615837158687/work
 whitenoise==5.2.0
