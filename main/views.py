@@ -2,11 +2,15 @@ from django.http import HttpResponse
 from django.template import loader
 from .generate_csv import GenerateCsv
 from django.shortcuts import render
-
+from .task import sleepy
+from django.http import HttpResponse
 
 
 def index(request, *args, **kwords):
-    return render(request, 'main/index.html')
+    sleepy(5)
+    print('hello')
+    return HttpResponse('done')
+    # return render(request, 'main/index.html')
 
 def complete(request, *args, **kwargs):
     context = {

@@ -120,5 +120,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# Celory
+# CELERY_BROKER_URL = 'redis://127.0.0.1:6379'
+CELERY_BROKER_URL = 'redis://:pfeaae877f8f1128f52ae46ee68a7a1e1318b32f03828e405fe295dd30d1da3e8@ec2-54-163-52-2.compute-1.amazonaws.com:20750'
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+
 # Activate Django-Heroku.
 django_heroku.settings(locals())

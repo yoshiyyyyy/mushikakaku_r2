@@ -4,8 +4,7 @@ from bs4 import BeautifulSoup
 import csv
 import time
 import os
-
-
+from celery import shared_task
 
 class GenerateCsv :
         def __init__(self, genre_id, search_name, file_name): # コンストラクタ
@@ -13,7 +12,7 @@ class GenerateCsv :
                 self.search_name = search_name
                 self.file_name = file_name
 
-
+        @shared_task
         def Execute(self):
                 headers = {"User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0"}
                 csvlist = [['落札年月','月内平均落札価格','落札価格','商品名']]
